@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>image/Actions-zoom-in-icon.png</file>
+        <file>image/Actions-zoom-out-icon.png</file>
+        <file>image/Continue-icon.png</file>
+        <file>image/girl-bunny-happy-icon.png</file>
+        <file>image/girl-bunny-heart-icon.png</file>
+        <file>image/girl-bunny-question-icon.png</file>
+        <file>image/Navigate-left-icon.png</file>
+        <file>image/Navigate-right-icon.png</file>
+        <file>image/Pause-icon.png</file>
+        <file>image/Picture-icon.png</file>
+        <file>image/shape-rotate-anticlockwise-icon.png</file>
+        <file>image/shape-rotate-clockwise-icon.png</file>
+        <file>image/th.jpg</file>
+    </qresource>
+</RCC>

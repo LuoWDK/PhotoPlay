@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PhotoWidget</class>
+ <widget class="QWidget" name="PhotoWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>512</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PhotoWidget</string>
+  </property>
+  <widget class="QPushButton" name="Prevbtn">
+   <property name="geometry">
+    <rect>
+     <x>69</x>
+     <y>340</y>
+     <width>41</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/Navigate-left-icon.png</normaloff>:/image/Navigate-left-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Nextbtn">
+   <property name="geometry">
+    <rect>
+     <x>209</x>
+     <y>340</y>
+     <width>40</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/Navigate-right-icon.png</normaloff>:/image/Navigate-right-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Openbtn">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>340</y>
+     <width>41</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/Picture-icon.png</normaloff>:/image/Picture-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+   <property name="autoDefault">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Playbtn">
+   <property name="geometry">
+    <rect>
+     <x>116</x>
+     <y>340</y>
+     <width>40</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/Continue-icon.png</normaloff>:/image/Continue-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Stopbtn">
+   <property name="geometry">
+    <rect>
+     <x>162</x>
+     <y>340</y>
+     <width>41</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/Pause-icon.png</normaloff>:/image/Pause-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Enlargebtn">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>340</y>
+     <width>40</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/Actions-zoom-in-icon.png</normaloff>:/image/Actions-zoom-in-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Rotateleftbtn">
+   <property name="geometry">
+    <rect>
+     <x>346</x>
+     <y>340</y>
+     <width>41</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/shape-rotate-anticlockwise-icon.png</normaloff>:/image/shape-rotate-anticlockwise-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Rotaterightbtn">
+   <property name="geometry">
+    <rect>
+     <x>393</x>
+     <y>340</y>
+     <width>40</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/shape-rotate-clockwise-icon.png</normaloff>:/image/shape-rotate-clockwise-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Smallbtn">
+   <property name="geometry">
+    <rect>
+     <x>439</x>
+     <y>340</y>
+     <width>41</width>
+     <height>39</height>
+    </rect>
+   </property>
+   <property name="icon">
+    <iconset resource="image.qrc">
+     <normaloff>:/image/Actions-zoom-out-icon.png</normaloff>:/image/Actions-zoom-out-icon.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>40</width>
+     <height>40</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelFan">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>340</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QScrollArea" name="scrollArea">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>471</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <property name="widgetResizable">
+    <bool>true</bool>
+   </property>
+   <widget class="QWidget" name="scrollAreaWidgetContents">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>469</width>
+      <height>319</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="image.qrc"/>
+ </resources>
+ <connections/>
+</ui>
